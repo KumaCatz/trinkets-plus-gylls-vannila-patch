@@ -1,0 +1,199 @@
+effect: .name "deleter_tooltip" .target "performer" .chance 0% .on_hit false .on_miss false .apply_once true .queue true .apply_once true 
+
+//Man at Arms Trinkets
+effect: .name "L_Patch_Heal" .target "performer" .chance 100% .heal 1 .on_hit true .on_miss true .can_crit_heal false .queue true .apply_once true .has_description false
+effect: .name "bellow_stress_heal" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true .apply_once true
+
+//Jester Trinkets
+effect: .name "Solo_Debuff" .target "target" .chance 150% .duration 3 .combat_stat_buff 1 .defense_rating_add -10% .attack_rating_add -5% .apply_once false .queue true .on_hit true .on_miss false
+effect: .name "H_Dice_buff" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .crit_chance_add 4% .apply_once false .queue true .on_hit true .on_miss true
+
+effect: .name "Jest_Finger_Tag" .target "performer" .chance 100% .tag 1 .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue true .has_description false
+
+effect: .name "Jest_Finger_Tag_Short" .target "performer" .chance 100% .tag 1 .duration 1 .buff_duration_type after_turn .on_hit true .on_miss true .queue true .has_description false
+
+effect: .name "on_kill_stress_jest" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss true .queue true
+
+//Grave Robber Trinkets
+effect: .name "knife_dmg_buff" .target "performer" .chance 100% .duration 3 .buff_ids "k_pouch_e_DMGL" "k_pouch_e_DMGH" .apply_once true .queue true .on_hit true .on_miss false
+effect: .name "knife_spd_buff" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 1 .apply_once true .queue true .on_hit true .on_miss false
+effect: .name "c_pouch_stealth" .target "performer" .chance 100% .unstealth 1 .on_hit true .on_miss true .queue true .has_description false
+effect: .name "b_pouch_buffs" .target "performer" .chance 100% .buff_ids "b_pouch_blight_amount" "b_pouch_blight_duration" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "letter_open_bleed" .target "target" .chance 140% .dotBleed 4 .duration 1 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "abstine_cure" .target "performer" .chance 100% .cure 1 .clearDotStress 1 .on_hit true .on_miss false .queue true
+effect: .name "abstine_heal" .target "performer" .chance 100% .dotHpHeal 3 .duration 1	.on_hit true .on_miss false .apply_once true .queue true
+
+//Abomination Trinkets
+effect: .name "v_lock_stress_heal" .target "performer_group_other" .chance 100% .healstress 3 .on_hit true .on_miss true .queue true .has_description false
+effect: .name "chains_stress_heal" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true
+effect: .name "stresshealaxapartone" .target "performer" .chance 100% .duration 1 .buff_ids "v_lock_stress_heal_debuff" .apply_once true .queue true .on_hit true .on_miss false .buff_source_type bsrc_notspecified
+effect: .name "stresshealaxaparttwo" .target "performer" .chance 100% .duration 1 .buff_ids "v_lock_stress_heal_buffing" .apply_once true .queue true .on_hit true .on_miss false .buff_source_type bsrc_notspecified
+
+//Hellion Trinkets
+effect: .name "c_pendant_stress" .target "performer" .chance 100% .stress 4 .on_hit true .on_miss true .queue true .has_description true
+effect: .name "c_pendant_resolve" .target "performer" .chance 100% .buff_duration_type combat_end .duration 99 .buff_ids "c_pendant_resolve" .apply_once true .queue true .on_hit true .on_miss false .has_description false
+
+//Occultist Trinkets
+effect: .name "calm_incense_stress" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss true .queue true
+effect: .name "calm_incense_horror_cure" .target "target" .chance 100% .clearDotStress 1 .on_hit true .on_miss true .queue true
+effect: .name "cursed_incense_debuff" .target "target" .chance 120% .buff_duration_type after_turn .duration 3 .buff_ids "c_incense_dmg_taken" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "blood_pact_blead" .target "performer" .chance 300% .dotBleed 4 .duration 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "petskull_buff" .target "target" .chance 100% .buff_duration_type after_turn .duration 3 .buff_ids "petskull_spd" .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "petskull_stun" .target "target" .chance 300% .stun 1 .on_hit true .on_miss false .queue true .has_description false
+
+//Arbalest trinkets
+effect: .name "h_greaves_move" .target "performer" .chance 300% .push 1 .on_hit true .on_miss true .queue false .apply_once true .has_description false
+effect: .name "o_bandana_guard_clear" .target "target" .chance 100% .clearguarded 1 .on_hit true .on_miss false
+
+//Bounty Hunter trinkets
+effect: .name "m_helm_move" .target "target" .chance 110% .pull 1 .on_hit true .on_miss false .queue false .apply_once true .has_description false
+effect: .name "debuff_crits_stuff" .target "target" .chance 130% .buff_ids "h_talon_crit_received" .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "cc_untag" .target "target" .chance 100% .untag 1 .on_hit true .on_miss false .queue true .apply_once true
+
+//Plague Doctor trinkets
+effect: .name "m_mix_heal" .target "target" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true .apply_once true .queue true 
+effect: .name "b_vial_debuff" .target "target" .chance 120% .combat_stat_buff 1 .defense_rating_add -10% .crit_chance_add -5% .attack_rating_add -5% .speed_rating_add -2 .apply_once false .on_hit true .on_miss false .queue true
+effect: .name "i_herb_self_blight" .target "performer" .chance 300% .dotPoison 3 .duration 4 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "i_herb_blight_target" .target "target" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .has_description true .queue false .swap_source_and_target true
+effect: .name "d_kit_bleed_extra" .target "target" .chance 110% .dotBleed 2 .duration 3 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "subject_notes_blight_extra" .target "target" .chance 110% .dotPoison 2 .duration 3 .on_hit true .on_miss false .apply_once true .queue true
+
+//Leper Trinkets
+effect: .name "berserk_heal" .target "performer" .chance 100% .healstress 9 .on_hit true .on_miss false .queue true .has_description true
+effect: .name "berserk_heal_hp" .target "performer" .chance 100% .heal 9 .on_hit true .on_miss false .queue true .has_description true
+effect: .name "flute_stress_heal" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Pet Amulet Mark Fix" .target "target" .chance 500% .buff_ids "LeperDebuffMark" .duration 3 .buff_duration_type after_turn	.on_hit true .on_miss false .queue true .has_description false
+
+//Highwayman Effects
+effect: .name "o_buckle_stress_heal" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .queue true
+
+//Houndmaster Effects
+effect: .name "silver_whistle_crits" .target "performer_group" .chance 100% .buff_ids "s_whistle_crit_res" .buff_duration_type after_round .duration 2 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "silver_whistle_regen" .target "target" .chance 100% .heal 3 .can_crit_heal true .on_hit true .on_miss false .queue true .apply_once true
+
+//Vestal Effects
+effect: .name "H_Scroll_Horror_Cure" .target "performer_group" .clearDotStress 1 .chance 100% .on_hit true .on_miss true .queue true
+effect: .name "H_Scroll_Debuff_Cure" .target "performer_group" .clear_debuff 1 .chance 100% .on_hit true .on_miss true .queue true
+effect: .name "H_Scroll_Torch" .target "global" .chance 100% .torch_increase 4 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "y_chalice_heal" .target "performer" .chance 100% .buff_ids "y_chalice_healing" .duration 4 .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "atonement_stress_heal" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss true .queue true
+
+//Shieldbreaker Effects
+effect: .name "v_vial_poison" .target "target" .chance 110% .dotPoison 2 .duration 2 .on_hit true .on_miss false
+effect: .name "d_wraps_spd_hit" .target "performer" .chance 100% .duration 4 .buff_ids "d_wraps_spd" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "s_speartip_bleed" .target "target" .chance 140% .dotBleed 2 .duration 3 .on_hit true .on_miss false .queue true .apply_once false .has_description false
+effect: .name "Speartip Perma HP" .target "performer" .chance 100% .buff_ids "spectral_speartip_hp" .on_hit true .on_miss false .queue true .duration 1 .buff_duration_type quest_end .has_description false .apply_once true
+
+//Flag Effects
+effect: .name "bloody_collar_bleed" .target "target" .chance 140% .dotBleed 2 .duration 3 .on_hit true .on_miss false .queue true .apply_once true .has_description true
+
+//Crusader Effects
+effect: .name "Crusader Stun Disable" .target "performer" .chance 100% .buff_ids "eu_hilt_disable" .on_hit true .on_miss false .queue true .duration 2 .buff_duration_type after_round .has_description false .apply_once true
+effect: .name "Crusader Blight Hilt" .target "target" .chance 140% .dotPoison 3 .duration 1 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "Euclidean Hilt Blight Trinketplus" .target "target" .chance 140%  .dotPoison 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+//Effects for generic trinkets
+
+//Debuff Amulet
+effect: .name "debuff_amulet_debuff" .target "target" .chance 100% .duration 4 .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .apply_once false
+
+//Blood Charm
+effect: .name "blood_charm_bleed" .target "target" .chance 140% .dotBleed 1 .duration 2 .on_hit true .on_miss false .apply_once false .queue true
+
+//Thirsting Stone
+effect: .name "thirsting_stone_bleed" .target "performer" .chance 300% .dotBleed 2 .duration 1 .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+//Blighted Idol
+effect: .name "blighted_idol_blight" .target "performer" .chance 300% .dotPoison 2 .duration 1 .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+//Poisoned Skull
+effect: .name "p_skull_blight" .target "target" .chance 140% .dotPoison 1 .duration 2 .on_hit true .on_miss false .apply_once false .queue true
+
+//Fleeting Boots
+effect: .name "Fleeting_Boots_Shuffle" .target "performer" .shuffletarget .chance 300% .on_hit true .on_miss true .has_description false
+
+//Star Amulet
+effect: .name "StarAmuletCrits" .target "performer_group" .chance 100% .duration 1 .buff_ids "star_amulet_crit" .on_hit true .on_miss false .queue true .apply_once true .has_description false
+
+//Star Stone
+effect: .name "StarStoneHealEffect" .target "performer_group" .chance 100% .duration 1 .buff_ids "star_stone_healing" .on_hit true .on_miss true .queue true .apply_once true .has_description false
+
+//Camo Cloak
+effect: .name "CamoStealth" .target "performer" .chance 33% .duration 2 .stealth 1 .on_hit true .on_miss true .queue true .has_description false
+
+//Shimmering Cloak 
+effect: .name "ShimmerStealth" .target "performer" .chance 100% .duration 2 .stealth 1 .on_hit true .on_miss true .queue true
+
+//Solar Crown
+effect: .name "SolarTorchup" .target "global" .chance 100% .torch_increase 3 .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+//Siren Coaunch
+effect: .name "SirenStressHeal" .target "performer_group" .chance 100% .healstress 1 .on_hit true .on_miss true .apply_once true .has_description false
+
+//Really good book
+effect: .name "GoodBookStressHeal" .target "performer" .chance 100% .healstress 3 .on_hit true .on_miss false .apply_once true .has_description false .queue true
+
+//Beaded Necklace
+effect: .name "beaded_necklace_stress_heal" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true .apply_once true
+
+//Regen Vial
+effect: .name "regen_vial_heal" .target "performer" .chance 100% .heal 5 .can_crit_heal true .on_hit true .on_miss false .queue true .apply_once true
+
+//Claw Amulet 
+effect: .name "Claw Amulet Speed" .target "performer" .duration 3 .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false
+effect: .name "Claw Amulet Acc" .target "performer" .duration 3 .chance 100% .combat_stat_buff 1 .attack_rating_add 10%	.on_hit true .on_miss false
+
+//Coat of Many Colours
+effect: .name "Coat of Many Colours ACC" .target "performer" .duration 1 .buff_duration_type quest_end .chance 100% .combat_stat_buff 1 .attack_rating_add 2%	.on_hit true .on_miss false
+
+//Crystalline Gunpowder
+effect: .name "Crystalline Gunpowder Stun" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .queue true .has_description false
+
+//Heretical Passage
+effect: .name "Heretical DMG Buff" .target "target" .chance 100% .buff_ids "Heretical_DMG_High" "Heretical_DMG_Low" .duration 4 .buff_duration_type after_turn .on_hit true .on_miss false .queue true
+
+//Petrified Skull
+effect: .name "Petrified Skull Pull" .pull 3 .target "target" .chance 140% .on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+//Husk Ichor
+effect: .name "Husk Ichor Blight" .target "target" .chance 140% .dotPoison 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Husk Ichor Prot" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .protection_rating_add -10% .on_hit true .on_miss false .queue true
+
+//Timeless Mask
+effect: .name "Timeless Mask Perma SPD" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 1 .on_hit true .on_miss false .queue false .duration 1 .buff_duration_type quest_end .has_description false
+
+//Broken Key
+effect: .name "Broken Key Buff" .target "performer" .chance 100% .buff_ids "TRINKET_com_abom_broken_key_stun_B35" .duration 4 .buff_duration_type after_turn .on_hit true .on_miss false .queue true
+
+//Miller's Pipe Effects which fix doubled tooltips
+effect: .name "Miller Death Party Effects Fixed" .target "target" .buff_ids "miller_pipe_prot" "miller_pipe_spd" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Miller Pipe Stress Heal Vin" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "Miller Pipe Kill Blight Vin" .target "target" .chance 140% .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Miller Death Party Stress Vin" .target "target"  .chance 100% .stress 45	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Coat Death Stun Vin"     .target "target"   .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Coat Death Stress Vin"   .target "target"   .curio_result_type "negative" .chance 120% .stress 25    .on_hit true .on_miss true	.queue true .apply_once true
+
+//Arb com trinket
+effect: .name "Keening Bolt Stress On Attack Vin" .target "performer" .chance 25% .stress 3 .on_hit true .on_miss true .queue true .crit_doesnt_apply_to_roll true .apply_once true
+
+//Hellion Com trinket
+effect: .name "Thirsting Blade Self Atk On Miss Vin" .target "performer" target .chance 100% .health_damage 5 .damage_type additionaleffect .damage_source_data "com_hel_thirsting_blade" .damage_source_type "trinket" .on_hit false .on_miss true .queue true .apply_once true
+
+//Thing Trinkets
+effect: .name "Thing Eye Perma Scout" .target "performer" .chance 100% .buff_ids "thing_eye_scout" .on_hit true .on_miss false .queue true .duration 1 .buff_duration_type quest_end .has_description false .apply_once true
+effect: .name "Thing Eye Perma Scout Tip" .target "performer" .chance 100% .buff_ids "Eye_Stacking_Scout_Tooltip1" .on_hit true .on_miss false .queue true .duration 1 .buff_duration_type quest_end .has_description false .apply_once true
+effect: .name "Thing Heart Cure" .target "performer" .chance 100% .cure 1 .on_hit true .on_miss false .queue true
+effect: .name "Thing Hide Stealth" .target "performer" .chance 50% .duration 1 .buff_duration_type after_round .stealth 1 .on_hit true .on_miss true .queue true .has_description true
+
+//Crystal Size0 Drop (scrapped)
+effect: .name "Crystal Pendent Spawn Loot" .target "performer" .chance 100% .summon_count 1 .summon_monsters shard_loot_stuff_A .summon_chances 1.0 .summon_limits 1 .summon_ranks 0 .on_hit true .on_miss false .apply_once true .has_description false .summon_can_spawn_loot true
+
+effect: .name "Crystal Pendent Spawn Deleter" .target "performer" .chance 100% .kill_enemy_types shard_loot_stuff_A .on_hit true .on_miss true .queue true .has_description false .can_apply_on_death true
+
+//Sweeper Stuff
+effect: .name "sweeper_stress_heal" .target "performer" .chance 100% .healstress 100 .on_hit true .on_miss false .queue true
+effect: .name "sweeper_heal" .target "performer" .chance 100% .heal 100 .on_hit true .on_miss false .queue true
+
+//Ancestor Pistol
+effect: .name "Ancestor Pistol Acc" .target "performer_group_other" .chance 100% .duration 1 .buff_ids "ancestor_pistol_acc" .on_hit true .on_miss false .queue true .apply_once true
