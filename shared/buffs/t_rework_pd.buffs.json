@@ -65,23 +65,7 @@
 				"string" : "poisoned"
 			}
 		},
-		
-		{
-
-			"id" : "b_vial_debuff",
-			"stat_type" : "debuff_chance",
-			"stat_sub_type" : "",
-			"amount" : 0.20,
-			"remove_if_not_active" : false,
-			"rule_type" : "always",
-			"is_false_rule" : false,
-			"rule_data" : 
-			{
-				"float" : 0,
-				"string" : ""
-			}
-		},
-		
+				
 		{
 
 			"id" : "b_vial_acc",
@@ -97,23 +81,7 @@
 				"string" : ""
 			}
 		},
-		
-		{
-
-			"id" : "b_vial_move",
-			"stat_type" : "move_chance",
-			"stat_sub_type" : "",
-			"amount" : 0.2,
-			"remove_if_not_active" : false,
-			"rule_type" : "always",
-			"is_false_rule" : false,
-			"rule_data" : 
-			{
-				"float" : 0,
-				"string" : ""
-			}
-		},
-		
+				
 		{
 
 			"id" : "b_vial_virtue",
@@ -146,6 +114,59 @@
 				"string" : ""
 			}
 		},
+
+		{
+
+			"id" : "b_vial_dmgh",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "disorienting_blast"
+			},
+			"has_description" : false
+
+		},
+
+		{
+
+			"id" : "b_vial_dmgl",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "disorienting_blast"
+			},
+			"has_description" : false
+
+		},
+
+		{
+
+			"id" : "b_vial_dmg_Tooltip2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_b_vial_Tooltip2",
+			"amount" : 0,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+
 		
 		{
 

@@ -52,7 +52,7 @@ effect: .name "cc_untag" .target "target" .chance 100% .untag 1 .on_hit true .on
 
 //Plague Doctor trinkets
 effect: .name "m_mix_heal" .target "target" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true .apply_once true .queue true 
-effect: .name "b_vial_debuff" .target "target" .chance 120% .combat_stat_buff 1 .defense_rating_add -10% .crit_chance_add -5% .attack_rating_add -5% .speed_rating_add -2 .apply_once false .on_hit true .on_miss false .queue true
+effect: .name "b_vial_debuff" .target "target" .chance 120% .combat_stat_buff 1 .defense_rating_add -10% .crit_chance_add -5% .apply_once false .on_hit true .on_miss false .queue true
 effect: .name "i_herb_self_blight" .target "performer" .chance 300% .dotPoison 3 .duration 4 .on_hit true .on_miss false .apply_once true .queue true
 effect: .name "i_herb_blight_target" .target "target" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .has_description true .queue false .swap_source_and_target true
 effect: .name "d_kit_bleed_extra" .target "target" .chance 110% .dotBleed 2 .duration 3 .on_hit true .on_miss false .apply_once true .queue true
