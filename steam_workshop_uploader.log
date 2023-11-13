@@ -1,0 +1,138 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - E:\Games\Darkest Dungeon Stuff\Trinkets++\project_public.xml
+Mod Data Directory = E:/Games/Darkest Dungeon Stuff/Trinkets++/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/trinketsplus.string_table.xml
+
+Building Languages
+Exporting .loc2 files
+
+-------------------------------------------------------------------------------
+Searching for preview icon file E:/Games/Darkest Dungeon Stuff/Trinkets++/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Detected 2 unchanged files
+The following files are unchanged and will be uploaded...
+E:/Games/Darkest Dungeon Stuff/Trinkets++/trinkets/base.rarities.trinkets.json
+E:/Games/Darkest Dungeon Stuff/Trinkets++/trinkets/base.starting.trinkets.json
+
+-------------------------------------------------------------------------------
+Modded files...
+
+monsters/shard_loot_stuff/anim/shard_loot_stuff.sprite.combat.atlas
+monsters/shard_loot_stuff/anim/shard_loot_stuff.sprite.combat.png
+monsters/shard_loot_stuff/anim/shard_loot_stuff.sprite.combat.skel
+monsters/shard_loot_stuff/anim/shard_loot_stuff.sprite.defend.atlas
+monsters/shard_loot_stuff/anim/shard_loot_stuff.sprite.defend.png
+monsters/shard_loot_stuff/anim/shard_loot_stuff.sprite.defend.skel
+monsters/shard_loot_stuff/shard_loot_stuff_A/shard_loot_stuff_A.art.darkest
+monsters/shard_loot_stuff/shard_loot_stuff_A/shard_loot_stuff_A.info.darkest
+monsters/shard_loot_stuff/shard_loot_stuff_A/tint.png
+panels/icons_equip/heirloom/inv_heirloom+memory.png
+panels/icons_equip/shard/inv_shard+.png
+panels/icons_equip/trinket/inv_trinket+ambush_plans.png
+panels/icons_equip/trinket/inv_trinket+beaded_necklace.png
+panels/icons_equip/trinket/inv_trinket+cc_boss_baron.png
+panels/icons_equip/trinket/inv_trinket+cc_boss_countess.png
+panels/icons_equip/trinket/inv_trinket+cc_boss_viscount.png
+panels/icons_equip/trinket/inv_trinket+cc_coven_signet.png
+panels/icons_equip/trinket/inv_trinket+cc_crimson_tincture.png
+panels/icons_equip/trinket/inv_trinket+cc_crystal_snifter.png
+panels/icons_equip/trinket/inv_trinket+cc_dazzling_mirror.png
+panels/icons_equip/trinket/inv_trinket+cc_mantra_of_fasting.png
+panels/icons_equip/trinket/inv_trinket+cc_pagan_talisman.png
+panels/icons_equip/trinket/inv_trinket+cc_quicksilver_salve.png
+panels/icons_equip/trinket/inv_trinket+cc_rat_carcass.png
+panels/icons_equip/trinket/inv_trinket+cc_sculptors_tools.png
+panels/icons_equip/trinket/inv_trinket+cc_set_abom_shameful_shroud.png
+panels/icons_equip/trinket/inv_trinket+cc_set_abom_wrought_osmond_chains.png
+panels/icons_equip/trinket/inv_trinket+cc_set_anti_the_masters_essence.png
+panels/icons_equip/trinket/inv_trinket+cc_set_anti_two_of_the_three.png
+panels/icons_equip/trinket/inv_trinket+cc_set_arb_childhood_treasure.png
+panels/icons_equip/trinket/inv_trinket+cc_set_arb_sharpshooters_string_wax.png
+panels/icons_equip/trinket/inv_trinket+cc_set_bh_crime_lords_molars.png
+panels/icons_equip/trinket/inv_trinket+cc_set_bh_vow_of_revenge.png
+panels/icons_equip/trinket/inv_trinket+cc_set_cru_glittering_spaulders.png
+panels/icons_equip/trinket/inv_trinket+cc_set_cru_signed_conscription.png
+panels/icons_equip/trinket/inv_trinket+cc_set_flag_chipped_tooth.png
+panels/icons_equip/trinket/inv_trinket+cc_set_flag_shard_of_glass.png
+panels/icons_equip/trinket/inv_trinket+cc_set_gr_absinthe.png
+panels/icons_equip/trinket/inv_trinket+cc_set_gr_sharpened_letter_opener.png
+panels/icons_equip/trinket/inv_trinket+cc_set_hel_lioness_warpaint.png
+panels/icons_equip/trinket/inv_trinket+cc_set_hel_mark_of_the_outcast.png
+panels/icons_equip/trinket/inv_trinket+cc_set_high_bloodied_neckerchief.png
+panels/icons_equip/trinket/inv_trinket+cc_set_high_shameful_locket.png
+panels/icons_equip/trinket/inv_trinket+cc_set_hm_damning_evidence.png
+panels/icons_equip/trinket/inv_trinket+cc_set_hm_lawmans_badge.png
+panels/icons_equip/trinket/inv_trinket+cc_set_jest_tasting_cup.png
+panels/icons_equip/trinket/inv_trinket+cc_set_jest_tyrants_fingerbone.png
+panels/icons_equip/trinket/inv_trinket+cc_set_lep_last_will_and_testament.png
+panels/icons_equip/trinket/inv_trinket+cc_set_lep_tin_flute.png
+panels/icons_equip/trinket/inv_trinket+cc_set_maa_old_unit_banner.png
+panels/icons_equip/trinket/inv_trinket+cc_set_maa_toy_soldier.png
+panels/icons_equip/trinket/inv_trinket+cc_set_musk_first_place_trophy.png
+panels/icons_equip/trinket/inv_trinket+cc_set_musk_silver_bullet.png
+panels/icons_equip/trinket/inv_trinket+cc_set_occ_blood_pact.png
+panels/icons_equip/trinket/inv_trinket+cc_set_occ_vial_of_sand.png
+panels/icons_equip/trinket/inv_trinket+cc_set_pd_codex_of_plagues.png
+panels/icons_equip/trinket/inv_trinket+cc_set_pd_dissection_kit.png
+panels/icons_equip/trinket/inv_trinket+cc_set_vest_atonement_beads.png
+panels/icons_equip/trinket/inv_trinket+cc_set_vest_salacious_diary.png
+panels/icons_equip/trinket/inv_trinket+claw_amulet.png
+panels/icons_equip/trinket/inv_trinket+com_abom_broken_key.png
+panels/icons_equip/trinket/inv_trinket+com_ant_smoking_skull.png
+panels/icons_equip/trinket/inv_trinket+com_arb_keening_bolts.png
+panels/icons_equip/trinket/inv_trinket+com_bh_mask_of_timeless.png
+panels/icons_equip/trinket/inv_trinket+com_coat_many_colours.png
+panels/icons_equip/trinket/inv_trinket+com_comet_cluster_pendant.png
+panels/icons_equip/trinket/inv_trinket+com_comet_seed_pendant.png
+panels/icons_equip/trinket/inv_trinket+com_cru_non_euclidean_hilt.png
+panels/icons_equip/trinket/inv_trinket+com_flag_acidic_husk_ichor.png
+panels/icons_equip/trinket/inv_trinket+com_grv_huskclaw_toxin.png
+panels/icons_equip/trinket/inv_trinket+com_hel_thirsting_blade.png
+panels/icons_equip/trinket/inv_trinket+com_hnd_huskfang_whistle.png
+panels/icons_equip/trinket/inv_trinket+com_hwy_crystalline_gunpowder.png
+panels/icons_equip/trinket/inv_trinket+com_jes_dirge_for_devoured.png
+panels/icons_equip/trinket/inv_trinket+com_lens_of_comet.png
+panels/icons_equip/trinket/inv_trinket+com_lep_crystalized_amulet.png
+panels/icons_equip/trinket/inv_trinket+com_maa_mirror_shield.png
+panels/icons_equip/trinket/inv_trinket+com_mildredslocket.png
+panels/icons_equip/trinket/inv_trinket+com_millers_pipe.png
+panels/icons_equip/trinket/inv_trinket+com_msk_icosahedric_balls.png
+panels/icons_equip/trinket/inv_trinket+com_occ_elder_sign.png
+panels/icons_equip/trinket/inv_trinket+com_pd_ashen_distillation.png
+panels/icons_equip/trinket/inv_trinket+com_prismatic_heart_crystal.png
+panels/icons_equip/trinket/inv_trinket+com_sb_spectral_speartip.png
+panels/icons_equip/trinket/inv_trinket+com_thing_eye.png
+panels/icons_equip/trinket/inv_trinket+com_thing_fang.png
+panels/icons_equip/trinket/inv_trinket+com_thing_hide.png
+panels/icons_equip/trinket/inv_trinket+com_ves_heretical_passages.png
+panels/icons_equip/trinket/inv_trinket+flag_1.png
+panels/icons_equip/trinket/inv_trinket+flag_2.png
+panels/icons_equip/trinket/inv_trinket+flag_3.png
+panels/icons_equip/trinket/inv_trinket+flag_4.png
+panels/icons_equip/trinket/inv_trinket+flag_5.png
+panels/icons_equip/trinket/inv_trinket+green_ribbon.png
+panels/icons_equip/trinket/inv_trinket+letter_of_request.png
+panels/icons_equip/trinket/inv_trinket+placeholder.png
+panels/icons_equip/trinket/inv_trinket+prosper_signet.png
+panels/icons_equip/trinket/inv_trinket+really_good_book.png
+panels/icons_equip/trinket/inv_trinket+regen_vial.png
+panels/icons_equip/trinket/inv_trinket+sb_1.png
+panels/icons_equip/trinket/inv_trinket+sb_2.png
+panels/icons_equip/trinket/inv_trinket+sb_3.png
+panels/icons_equip/trinket/inv_trinket+sb_4.png
+panels/icons_equip/trinket/inv_trinket+sb_5.png
+panels/icons_equip/trinket/inv_trinket+sb_set_1.png
+panels/icons_equip/trinket/inv_trinket+sb_set_2.png
+panels/icons_equip/trinket/inv_trinket+snack_sack.png
+panels/icons_equip/trinket/inv_trinket+spiral_rune.png
+panels/icons_equip/trinket/inv_trinket+the_sweeper.png
