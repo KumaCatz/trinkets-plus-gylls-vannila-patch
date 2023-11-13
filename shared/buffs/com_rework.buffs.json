@@ -1,0 +1,1725 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "comet_lens_crit",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "target_is_stealthed",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "crystal_dmgh_v_husk",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "monsterType",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "husk"
+			}
+		},
+		
+		{
+
+			"id" : "crystal_dmgl_v_husk",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "monsterType",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "husk"
+			}
+		},
+		
+		{
+
+			"id" : "comet_lens_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_comet_lens_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_hide_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_thing_hide_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Extra_Crystal_Drops_Tip",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_crystal_drops_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "comet_shard_reward_extra",
+			"stat_type" : "shard_reward_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.40,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "greed_set_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "greed_set_stress_less",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "greed_set_stress",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "comet_lens_ap",
+			"stat_type" : "ignore_protection",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "mildred_locket_spd",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "ashen_distillation_dodge",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "ashen_distillation_blight_amount",
+			"stat_type" : "hp_dot_poison_amount_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "coat_colour_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_coat_colour_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "mirror_shield_max_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.40,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "mirror_shield_dmg_taken",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "mirror_shield_dmg_reflect",
+			"stat_type" : "damage_reflect_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.50,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "crystal_pbs_stun_highwayman",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "point_blank_shot"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "crystal_grape_stun_highwayman",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "grape_shot_blast"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "crystal_tracking_stun_highwayman",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "take_aim"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "crystal_pistolshot_dmgh_highwayman",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "pistol_shot"
+			}
+		},
+		
+		{
+
+			"id" : "crystal_pistolshot_dmgl_highwayman",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "pistol_shot"
+			}
+		},
+		
+		{
+
+			"id" : "gunpowder_tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_gunpowder_stun_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_Heal",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : -99,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "divine_grace"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "Heretical_Heal_TWO",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : -99,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "gods_comfort"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "Heretical_DMG_High",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_DMG_Low",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_DMGSelf_High",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_DMGSelf_Low",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_Stun",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_Debuff",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "pet_amulet_debuff",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "pet_amulet_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_pet_amulet_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "spectral_speartip_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_spectral_speartip_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "spectral_speartip_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.03,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Heretical_Stress",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "petskull_healing",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : 99,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "wyrd_reconstruction"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "petskull_bleed",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "wyrd_reconstruction"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "petskull_spd",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 8,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "petskull_healing_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_petskull_healing_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "petskull_healing_Tooltip2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_petskull_healing_Tooltip2",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "petskull_healing_Tooltip3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_petskull_healing_Tooltip3",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "petskull_healing_Tooltip4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_petskull_healing_Tooltip4",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "petskull_spag_dmgl",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "abyssal_artillery"
+			}
+		},
+		
+		{
+
+			"id" : "petskull_spag_dmgh",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "abyssal_artillery"
+			}
+		},
+		
+		{
+
+			"id" : "petskull_tentacle_dmgl",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 1.5,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "daemons_pull"
+			}
+		},
+		
+		{
+
+			"id" : "petskull_tentacle_dmgh",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 1.5,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "daemons_pull"
+			}
+		},
+		
+		{
+
+			"id" : "petskull_pull_tentacle",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "daemons_pull"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "petskull_pull_weakcurse",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "weakening_curse"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "petskull_pull_disruptcurse",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "disruptive_curse"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "petskull_pull_hands",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "hands_from_abyss"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "pet_skull_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_pet_skull_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "pet_skull_Tooltip2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_pet_skull_Tooltip2",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Husk_Ichor_AP",
+			"stat_type" : "ignore_protection",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "timeless_mask_spd_initial",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : -4,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "timeless_mask_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_timeless_mask_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "broken_key_stun",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "broken_key_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "broken_key_crit_v_stun",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "actorStatus",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "stunned"
+			}
+		},
+		
+		{
+
+			"id" : "miller_pipe_prot",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "protection_rating",
+			"amount" : -0.2,
+			"duration_type" : "quest_end",
+			"duration" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "miller_pipe_spd",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : -2,
+			"duration_type" : "quest_end",
+			"duration" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_fang_crit_always",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_fang_crit_self_hp",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "hpabove",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.42,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_fang_crit_targ_hp",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "target_hpabove",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.42,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_eye_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_eye_scout",
+			"stat_type" : "scouting_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.03,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"buff_is_clear_debuff_valid" : false
+		},
+		
+		{
+
+			"id" : "Eye_Perma_Scout_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_eye_scout_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Eye_Stacking_Scout_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_stacking_scout_Tooltip1",
+			"amount" : -0.03,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_eye_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "thing_heart_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Thing Hide Crit Rec",
+			"stat_type" : "crit_received_chance",
+			"stat_sub_type" : "",
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "Thing Hide DMG Rec",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_mildreds_locket_grindgrist_skill_resist_vin",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "grind_the_grist"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_mildreds_locket_dmgH_vs_poorsoul_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.4,
+			"remove_if_not_active" : false,
+			"rule_type" : "monsterType",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "unfortunate_soul"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_mildreds_locket_dmgL_vs_poorsoul_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.4,
+			"remove_if_not_active" : false,
+			"rule_type" : "monsterType",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "unfortunate_soul"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_lens_comet_affliction_D20_vin",
+			"stat_type" : "resolve_check_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_lens_comet_destealth_vin",
+			"stat_type" : "ignore_stealth",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "locket_blight_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "poison",
+			"amount" : 0.4,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_ant_smoking_skull_DODGE_B12_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : 0.35,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "spice"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_ant_smoking_skull_attack_D15_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_ant_smoking_skull_blight_res_D15_vin",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "poison",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_abom_broken_key_stress_dmg_rec_D10_vin",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_arb_keening_bolts_dmghigh_B20_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_arb_keening_bolts_dmglow_B20_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_arb_keening_bolts_crit_B3_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.07,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_cru_non_euclidean_hilt_random_target_5_vin",
+			"stat_type" : "random_target_attack_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_cru_non_euclidean_hilt_stun_B25_wHolyWater_vin",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "holy_water"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_cru_non_euclidean_hilt_maxHP_B15_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_grv_huskclaw_toxin_def_with_herbs_B15_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "medicinal_herbs"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_grv_huskclaw_toxin_speed_B3_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 3,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_grv_huskclaw_toxin_blight_res_D20_vin",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "poison",
+			"amount" : -0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "blight_duration_50percent_increase_vin",
+			"stat_type" : "hp_dot_poison_duration_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "hellion_thirsting_blade_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_hel_thirsting_blade_crit_v_bleeder_B5_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.08,
+			"remove_if_not_active" : false,
+			"rule_type" : "actorStatus",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "bleeding"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_hnd_huskfang_whistle_guard_duration_B1_vin",
+			"stat_type" : "guard_duration_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.66,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_hnd_huskfang_whistle_bleed_chance_B50_w_biscuit_vin",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.50,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "dog_treats"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_hnd_huskfang_whistle_stress_healed_B40_vin",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.40,
+			"remove_if_not_active" : false,
+			"rule_type" : "is_guarding",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_hnd_huskfang_whistle_dodge_D10_vin",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : -0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_jes_dirge_devoured_stress_heal_amt_B25_vin",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_jes_dirge_devoured_dmg_with_laudanum_B25_dmglow_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "laudanum"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_jes_dirge_devoured_dmg_with_laudanum_B25_dmghigh_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "laudanum"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_jes_dirge_devoured_stress_rec_D10_vin",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_pd_ashen_distillation_heal_rec_B20_vin",
+			"stat_type" : "hp_heal_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "has_item_id",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "medicinal_herbs"
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_sb_spectral_speartip_dmglow_B15_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "TRINKET_com_sb_spectral_speartip_dmghigh_B15_vin",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+		
+		
+		
+	] 
+
+} 
+
+

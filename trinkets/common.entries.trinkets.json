@@ -1,0 +1,219 @@
+{
+	"entries": [
+	    {
+         "id" : "damage_stone",
+         "buffs" : 
+         [
+            "spike_stone_reflect"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "survival_guide",
+         "buffs" : 
+         [
+            "TRINKET_survival_guide_SCOUTING_BUFF",
+            "TRINKET_survival_guide_TRAPRESIST_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "slippery_boots",
+         "buffs" : 
+         [
+            "s_boots_crits"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "warriors_bracer",
+         "buffs" : 
+         [
+            "warrior_bracer_dmgl",
+			"warrior_bracer_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "book_of_intuition",
+         "buffs" : 
+         [
+            "intuition_hero_surprise",
+            "intuition_enemy_surprise"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "archers_ring",
+         "buffs" : 
+         [
+            "archer_ring_acc"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "deteriorating_bracer",
+         "buffs" : 
+         [
+            "det_bracer_75hp",
+            "det_bracer_50hp",
+			"det_bracer_25hp",
+			"det_bracer_0hp"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "reckless_charm",
+         "buffs" : 
+         [
+			"fang_ap",
+			"fang_crit"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "bloodied_fetish",
+         "buffs" : 
+         [
+            "fetish_acc",
+            "fetish_bleed_res",
+            "fetish_poison_res"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "snake_oil",
+         "buffs" : 
+         [
+            "snake_oil_stress",
+			"snake_oil_acc",
+			"snake_oil_crit",
+			"snake_oil_crit_rec"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+		 "set_id" : "snake_oil_set",
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "warriors_cap",
+         "buffs" : 
+         [
+            "warrior_cap_acc"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "dazzling_charm",
+         "buffs" : 
+         [
+            "d_charm_stun_dmgh",
+			"d_charm_stun_dmgl",
+			"d_charm_stun_acc",
+			"d_charm_stun_crit"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "speed_stone",
+         "buffs" : 
+         [
+            "TRINKET_SPD_B1"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "caution_cloak",
+         "buffs" : 
+         [
+            "caution_cloak_scout",
+			"caution_cloak_dodge",
+            "caution_cloak_spd",
+			"careful_cloak_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

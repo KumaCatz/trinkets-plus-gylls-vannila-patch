@@ -1,0 +1,296 @@
+{
+	"entries": [
+	    {
+         "id" : "sun_ring",
+         "buffs" : 
+         [
+            "solar_ring_dmgh",
+            "solar_ring_dmgl",
+			"solar_cloak_stun_res",
+            "solar_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+		 "set_id" : "solar_set",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "sun_cloak",
+         "buffs" : 
+         [
+            "solar_cloak_dodge",
+            "solar_cloak_stun_res",
+            "solar_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+		 "set_id" : "solar_set",
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "berserk_charm",
+         "buffs" : 
+         [
+            "b_charm_stress_25_h",
+			"b_charm_stress_25_l",
+			"b_charm_stress_50_h",
+			"b_charm_stress_50_l",
+			"b_charm_stress_75_h",
+			"b_charm_stress_75_l",
+			"b_vial_virtue",
+			"no_virtue_Tooltip1"
+			
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "moon_ring",
+         "buffs" : 
+         [
+            "lunar_ring_dmgl",
+			"lunar_ring_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+		 "set_id" : "lunar_set",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "feather_crystal",
+         "buffs" : 
+         [
+            "TRINKET_SPD_B2",
+            "TRINKET_DEF_B2",
+            "TRINKET_STUNRESIST_D2",
+            "TRINKET_MOVERESIST_D2"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "brawlers_gloves",
+         "buffs" : 
+         [
+            "brawler_gloves_crit",
+			"brawler_gloves_dmgh",
+			"brawler_gloves_dmgl"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "moon_cloak",
+         "buffs" : 
+         [
+            "lunar_cloak_prot",
+			"lunar_cloak_crit_recieved"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+		 "set_id" : "lunar_set",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "quick_draw_charm",
+         "buffs" : 
+         [
+            "quickdraw_firstspd",
+			"q_charm_Tooltip1",
+			"quickdraw_firstcrit",
+			"quickdraw_afterfirstspd"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "snipers_ring",
+         "buffs" : 
+         [
+            "sniper_ring_acc",
+			"sniper_ring_ap"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "recovery_charm",
+         "buffs" : 
+         [
+            "TRINKET_HPHEALRECEIVED_B3"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "fasting_seal",
+         "buffs" : 
+         [
+			"TRINKET_fasting_seal_DODGE_BUFF",
+			"TRINKET_fasting_seal_EATSASZERO",
+            "TRINKET_fasting_seal_NOSTARVEDMG",
+            "TRINKET_fasting_seal_NOSTRESSHUNGER",
+            "TRINKET_fasting_seal_NOSTRESSCAMPINGEAT"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "solar_crown",
+         "buffs" : 
+         [
+            "solar_crown_burn",
+			"solar_crown_stress",
+			"s_crown_Tooltip1",
+			"EmptySpaceDelete"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+		 "set_id" : "solar_set",
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "SolarTorchup"
+		 ],
+		 "attack_skill_additional_effects":
+		 [
+		     "SolarTorchup"
+		 ]
+		},
+		{
+         "id" : "dark_crown",
+         "buffs" : 
+         [
+            "lunar_crown_stress",
+			"lunar_crown_burn"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+		 "set_id" : "lunar_set",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "unholy_slayers_ring",
+         "buffs" : 
+         [
+            "TRINKET_unholy_DMGL_B2",
+            "TRINKET_unholy_DMGH_B2",
+            "slayer_ring_dodge"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "man_slayers_ring",
+         "buffs" : 
+         [
+            "TRINKET_man_DMGL_B2",
+            "TRINKET_man_DMGH_B2",
+            "slayer_ring_dodge"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "beast_slayers_ring",
+         "buffs" : 
+         [
+            "TRINKET_beast_DMGL_B2",
+            "TRINKET_beast_DMGH_B2",
+            "slayer_ring_dodge"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "eldritch_slayers_ring",
+         "buffs" : 
+         [
+            "TRINKET_eldritch_DMGL_B2",
+            "TRINKET_eldritch_DMGH_B2",
+            "slayer_ring_dodge"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

@@ -1,0 +1,298 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "holy_tome_divine_grace",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : 3,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "divine_grace"
+			}
+		},
+		
+		{
+
+			"id" : "holy_tome_divine_comfort",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : 2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "gods_comfort"
+			}
+		},
+		
+		{
+
+			"id" : "profane_scroll_heal",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : 2,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "h_chalice_dmgh",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "judgement"
+			}
+		},
+		
+		{
+
+			"id" : "h_chalice_dmgl",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "judgement"
+			}
+		},
+		
+		{
+
+			"id" : "h_chalice_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "rangedonly",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "h_chalice_healing",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "judgement"
+			}
+		},
+		
+		{
+
+			"id" : "y_chalice_healing",
+			"stat_type" : "hp_heal_amount",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "y_chalice_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "silver_chalice_spd",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "silver_chalice_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "silver_chalice_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "atonement_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "atonement_crit",
+			"stat_type" : "crit_received_chance",
+			"stat_sub_type" : "",
+			"amount" : -0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "vestal_set_stun_cc",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "vestal_set_debuff_cc",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "vestal_set_acc_cc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "heretical_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_heretical_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+		
+		
+	] 
+
+} 
+
+

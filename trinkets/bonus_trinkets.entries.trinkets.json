@@ -1,0 +1,237 @@
+{
+   "entries":
+   [
+      {
+         "id" : "green_ribbon",
+         "buffs" : 
+         [
+            "green_ribbon_resolve"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "warding_medal",
+         "buffs" : 
+         [
+            "w_medal_stun_resist",
+			"w_medal_debuff_resist"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "beaded_necklace",
+         "buffs" : 
+         [
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		    "beaded_necklace_stress_heal"
+		 ]
+      },
+	  
+	  {
+         "id" : "spiral_rune",
+         "buffs" : 
+         [
+			"spiral_rune_hp_healed",
+			"spiral_rune_stress_healed_redux",
+			"spiral_rune_acc",
+			"spiral_rune_resolve"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "letter_of_request",
+         "buffs" : 
+         [
+			"letter_request_dmgh",
+			"letter_request_dmgl",
+			"letter_request_hp",
+			"spiral_rune_resolve"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "worn_brace",
+         "buffs" : 
+         [
+		    "worn_brace_hp",
+			"worn_brace_crit_rec",
+			"worn_brace_prot"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "regen_vial",
+         "buffs" : 
+         [
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		    "regen_vial_heal"
+		 ]
+      },
+	  {
+         "id" : "prosper_signet",
+         "buffs" : 
+         [
+		    "prosper_ring_deathblow",
+			"prosper_ring_heal_rec"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ambush_plans",
+         "buffs" : 
+         [
+		    "ambush_plans_surprised"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "really_good_book",
+         "buffs" : 
+         [
+		    "really_good_book_scout",
+			"really_good_book_spd",
+			"really_good_book_Tooltip1",
+			"EmptySpaceDelete"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "GoodBookStressHeal"
+		 ],
+		 "attack_skill_additional_effects":
+		 [
+		     "GoodBookStressHeal"
+		 ]
+      },
+	  {
+         "id" : "claw_amulet",
+         "buffs" : 
+         [
+		    "claw_amulet_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_crit_additional_effects":
+		 [
+		    "Claw Amulet Speed",
+			"Claw Amulet Acc"
+		 ]
+      },
+	  {
+         "id" : "snack_sack",
+         "buffs" : 
+         [
+		    "snack_food_consumed",
+			"snack_food_healing"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "the_sweeper",
+         "buffs" : 
+         [
+		    "sweeper_Tooltip1",
+			"sweeper_dodge",
+			"sweeper_stress",
+			"sweeper_dmgh",
+			"sweeper_dmgl",
+			"sweeper_acc",
+			"sweeper_spd",
+			"sweeper_resolve"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "vintage",
+         "price" : 5,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		     "sweeper_stress_heal",
+			 "sweeper_heal"
+		 ]
+      }
+   ]
+}

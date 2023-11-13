@@ -1,0 +1,140 @@
+{
+	"entries": [
+	    {
+         "id" : "boss_necromancer",
+         "buffs" : 
+         [
+			"necro_dmgresist1",
+			"necro_dmgresist2",
+			"necro_dmgresist3",
+			"necro_deathblow"
+			
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+			"id": "boss_hag",
+			"buffs": [
+				"TRINKET_HAGTROPHY_BLIGHTSKILL_BUFF",
+				"TRINKET_HAGTROPHY_BLIGHTRESIST_BUFF",
+				"TRINKET_HAGTROPHY_DISEASERESIST_BUFF"
+			],
+			"hero_class_requirements": [],
+			"rarity": "trophy",
+			"price": 0,
+			"limit": 1,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "boss_wilbur",
+			"buffs": [
+				"TRINKET_SWINETROPHY_STUNRESIST_BUFF",
+				"TRINKET_SWINETROPHY_DODGE_BUFF"
+			],
+			"hero_class_requirements": [],
+			"rarity": "trophy",
+			"price": 0,
+			"limit": 1,
+			"origin_dungeon": ""
+		},
+		{
+         "id" : "boss_siren",
+         "buffs" : 
+         [
+		     "s_conch_bleed_resist",
+			 "s_couch_Tooltip1",
+			 "EmptySpaceDelete"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "SirenStressHeal"
+		 ],
+		 "attack_skill_additional_effects":
+		 [
+		     "SirenStressHeal"
+		 ]
+        },
+		{
+			"id": "boss_cannon",
+			"buffs": [
+				"TRINKET_POUNDERTROPHY_SPD_BUFF",
+				"TRINKET_POUNDERTROPHY_RANGEDDMG_BUFF_L",
+				"TRINKET_POUNDERTROPHY_RANGEDDMG_BUFF_H",
+				"TRINKET_POUNDERTROPHY_RANGEDCRIT_BUFF"
+			],
+			"hero_class_requirements": [],
+			"rarity": "trophy",
+			"price": 0,
+			"limit": 1,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "boss_prophet",
+			"buffs": [
+				"TRINKET_PROHPETTROPHY_BACKRANKACC_BUFF",
+				"TRINKET_PROHPETTROPHY_BACKRANKSPD_BUFF",
+				"TRINKET_PROHPETTROPHY_BACKRANKSTRESSDMG_BUFF"
+			],
+			"hero_class_requirements": [],
+			"rarity": "trophy",
+			"price": 0,
+			"limit": 1,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "boss_flesh",
+			"buffs": [
+				"TRINKET_FLESHTROPHY_BLEEDRESIST_BUFF",
+				"TRINKET_FLESHTROPHY_MAXHP_BUFF"
+			],
+			"hero_class_requirements": [],
+			"rarity": "trophy",
+			"price": 0,
+			"limit": 1,
+			"origin_dungeon": ""
+		},
+		{
+         "id" : "boss_crew",
+         "buffs" : 
+         [
+            "crew_bell_stress_heal",
+            "crew_bell_heal"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+			"id": "boss_tassle",
+			"buffs": [
+				"tassle_block_tag",
+				"tassle_flat_dmgh",
+				"tassle_flat_dmgl",
+				"tassle_mark_dmgh",
+				"tassle_mark_dmgl"
+			],
+			"hero_class_requirements": [],
+			"rarity": "trophy",
+			"price": 0,
+			"limit": 1,
+			"origin_dungeon": ""
+		}
+	]
+}

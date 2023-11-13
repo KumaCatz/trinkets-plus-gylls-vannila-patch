@@ -1,0 +1,26 @@
+{
+   "entries":
+   [
+      {
+         "id" : "com_sb_spectral_speartip",
+         "buffs" : 
+         [
+            "TRINKET_com_sb_spectral_speartip_dmglow_B15_vin",
+            "TRINKET_com_sb_spectral_speartip_dmghigh_B15_vin",
+			"spectral_speartip_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "rarity" : "comet",
+         "shard" : 65,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		    "Speartip Perma HP"
+		 ]
+      }
+   ]
+}

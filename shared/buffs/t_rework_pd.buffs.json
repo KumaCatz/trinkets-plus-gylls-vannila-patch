@@ -1,0 +1,314 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "r_censor_stun",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "r_censor_h",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : -0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "p_herb_blight",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "p_herb_blight_vs_blighted",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "actorStatus",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "poisoned"
+			}
+		},
+		
+		{
+
+			"id" : "b_vial_debuff",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_vial_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_vial_move",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_vial_virtue",
+			"stat_type" : "resolve_check_percent",
+			"stat_sub_type" : "",
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "no_virtue_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_b_vial_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_herb_blight",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_herb_blight_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "poison",
+			"amount" : -0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "subject_notes_blight",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "subject_notes_crit",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "rangedonly",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "subject_notes_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "dissection_kit_bleed",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "dissection_kit_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "meleeonly",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "pd_set_stun",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "witch_vial_blight_amount",
+			"stat_type" : "hp_dot_poison_amount_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "witch_vial_stun",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : -0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+		
+	] 
+
+} 
+
+

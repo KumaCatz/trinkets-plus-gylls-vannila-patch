@@ -1,0 +1,42 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "b_medal_food",
+			"stat_type" : "food_consumption_percent",
+			"stat_sub_type" : "",
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_medal_food_healing",
+			"stat_type" : "hp_heal_received_percent",
+			"stat_sub_type" : "eat",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+		
+		
+	] 
+
+} 
+
+

@@ -1,0 +1,135 @@
+{
+	"entries": [
+	    {
+         "id" : "antiq_1",
+         "buffs" : 
+         [
+            "TRINKET_ANTIQ_DODGE_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "antiq_2",
+         "buffs" : 
+         [
+			"b_medal_food",
+			"b_medal_food_healing"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "antiq_3",
+         "buffs" : 
+         [
+            "TRINKET_ANTIQ_PROT_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "antiq_4",
+         "buffs" : 
+         [
+            "TRINKET_ANTIQ_SPEED_BUFF",
+            "TRINKET_ANTIQ_DEBUFF_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "antiq_5",
+         "buffs" : 
+         [
+            "TRINKET_ANTIQ_HEALGIVEN_BUFF",
+            "TRINKET_ANTIQ_HP_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "cc_set_anti_two_of_the_three",
+         "buffs" : 
+         [
+            "TRINKET_anti_two_of_the_three_BLIGHTEDDMGL_B1_vin",
+            "TRINKET_anti_two_of_the_three_BLIGHTEDDMGH_B1_vin",
+            "TRINKET_anti_two_of_the_three_BLIGHTEDCRIT_B1_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "set_id" : "cc_anti",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+        {
+         "id" : "cc_set_anti_the_masters_essence",
+         "buffs" : 
+         [
+            "TRINKET_anti_the_masters_essence_HEALDONE_B1_vin",
+            "TRINKET_anti_the_masters_essence_BLIGHTSKILL_B1_vin",
+            "TRINKET_anti_the_masters_essence_DEBUFFSKILL_B1_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "set_id" : "cc_anti",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+		{
+         "id" : "com_ant_smoking_skull",
+         "buffs" : 
+         [
+            "TRINKET_com_ant_smoking_skull_DODGE_B12_vin",
+            "TRINKET_com_ant_smoking_skull_attack_D15_vin",
+            "TRINKET_com_ant_smoking_skull_blight_res_D15_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "rarity" : "comet",
+         "shard" : 45,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

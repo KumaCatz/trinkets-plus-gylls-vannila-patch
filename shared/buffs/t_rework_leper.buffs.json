@@ -1,0 +1,633 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "h_armlet_hp",
+			"stat_type" : "hp_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "solemnity"
+			}
+		},
+		
+		{
+
+			"id" : "h_armlet_stress_heal",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "solemnity"
+			}
+		},
+		
+		{
+
+			"id" : "r_armlet_dmgh",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "r_armlet_dmgl",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "r_armlet_prot",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "protection_rating",
+			"amount" : 0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_mask_crit",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.07,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_mask_spd",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 3,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_mask_stress",
+			"stat_type" : "stress_heal_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "b_mask_healing",
+			"stat_type" : "hp_heal_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "b_mask_virtue",
+			"stat_type" : "resolve_check_percent",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_virtue",
+			"stat_type" : "resolve_check_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_mask_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_b_mask_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_mask_Tooltip2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_b_mask_Tooltip2",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "v_mask_poison_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "poison",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_stun_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "stun",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_bleed_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "bleed",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_debuff_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "debuff",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_disease_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "disease",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_move_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "move",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_trap_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "trap",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_deathblow_resist",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "death_blow",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_v_mask_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "v_mask_Tooltip2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_v_mask_Tooltip2",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "v_mask_crits",
+			"stat_type" : "crit_received_chance",
+			"stat_sub_type" : "",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "tagged"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "v_mask_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "v_mask_acc_hp",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "hpabove",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.50,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "v_mask_acc_stress",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "stress_below",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 50,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "v_mask_acc_mark",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "tagged"
+			}
+		},
+		
+		{
+
+			"id" : "flute_crit",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.07,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "flute_prot",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "protection_rating",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "last_will_move",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "last_will_debuff",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "LeperDebuffMark",
+			"stat_type" : "tag",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "pet_amulet_debuff_chop",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : -50,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "chop"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "pet_amulet_debuff_hew",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : -50,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "hew"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "pet_amulet_debuff_purge",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : -50,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "focus"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "last_will_stress",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "leper_set_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "hpabove",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.4,
+				"string" : ""
+			}
+		}
+		
+		
+	] 
+
+} 
+
+

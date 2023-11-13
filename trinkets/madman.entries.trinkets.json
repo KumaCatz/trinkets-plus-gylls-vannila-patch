@@ -1,0 +1,51 @@
+{
+	"entries": [
+	    {
+         "id" : "madman_1",
+         "buffs" : 
+         [
+            "a_box_stress_healed",
+			"a_box_stress_heal_received"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "madman",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "madman_2",
+         "buffs" : 
+         [
+            "TRINKET_MAXHP_B2",
+            "TRINKET_DEF_B2"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "madman",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "madman_3",
+         "buffs" : 
+         [
+            "TRINKET_SPD_B2",
+            "TRINKET_DMGL_B2",
+            "TRINKET_DMGH_B2",
+            "c_box_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "madman",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

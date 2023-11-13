@@ -1,0 +1,163 @@
+{
+	"entries": [
+	    {
+         "id" : "eldritch_killing_incense",
+         "buffs" : 
+         [
+            "TRINKET_eldritch_CRIT_B2",
+            "TRINKET_eldritch_DMGL_B1",
+            "TRINKET_eldritch_DMGH_B1"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "demons_cauldron",
+         "buffs" : 
+         [
+            "d_cauldron_stun",
+			"d_cauldron_crit",
+			"d_cauldron_bleed"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "sacrificial_cauldron",
+         "buffs" : 
+         [
+            "s_cauldron_dmgh",
+            "s_cauldron_dmgl",
+            "s_cauldron_acc",
+			"TRINKET_STRESSDMG_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "cursed_incense",
+         "buffs" : 
+         [
+            "c_incense_debuff",
+			"c_incense_debuff_hands",
+			"c_incense_hp"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "ranged_attack_skill_additional_effects":
+		 [
+		     "cursed_incense_debuff"
+		 ]
+        },
+		{
+         "id" : "evasion_incense",
+         "buffs" : 
+         [
+			"calm_incense_stress",
+			"calm_incense_spd",
+			"calm_incense_dodge"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "calm_incense_stress",
+			 "calm_incense_horror_cure"
+		 ]
+        },
+		{
+         "id" : "cc_set_occ_vial_of_sand",
+         "buffs" : 
+         [
+            "TRINKET_occ_vial_of_sand_DEBUFFSKILL_B1_vin",
+            "TRINKET_occ_vial_of_sand_MOVESKILL_B1_vin",
+            "sand_dodge"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "set_id" : "cc_occ",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+        {
+         "id" : "cc_set_occ_blood_pact",
+         "buffs" : 
+         [
+            "Blood_Pact_Healing",
+			"Blood_Pact_Max_HP"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "set_id" : "cc_occ",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "friendly_skill_additional_effects":
+		 [
+		    "blood_pact_blead"
+		 ]
+        },
+		{
+         "id" : "com_occ_elder_sign",
+         "buffs" : 
+         [
+		    "petskull_healing",
+			"petskull_bleed",
+			"petskull_healing_Tooltip1",
+			"petskull_healing_Tooltip2",
+			"petskull_healing_Tooltip3",
+			"petskull_healing_Tooltip4"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "rarity" : "comet",
+         "shard" : 80,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "petskull_stun",
+			 "petskull_buff"
+		 ]
+        }
+	]
+}

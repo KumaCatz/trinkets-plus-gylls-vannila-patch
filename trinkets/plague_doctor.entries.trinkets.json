@@ -1,0 +1,174 @@
+{
+	"entries": [
+	    {
+         "id" : "diseased_herb",
+         "buffs" : 
+         [
+            "i_herb_blight",
+			"i_herb_blight_resist"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		     "i_herb_self_blight",
+			 "i_herb_blight_target"
+		 ]
+        },
+		{
+         "id" : "poisoned_herb",
+         "buffs" : 
+         [
+            "p_herb_blight",
+            "p_herb_blight_vs_blighted"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "rotgut_censer",
+         "buffs" : 
+         [
+            "r_censor_stun",
+			"r_censor_h"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "bloody_herb",
+         "buffs" : 
+         [
+            "TRINKET_meleeonly_ACC_B2",
+            "TRINKET_BLEEDSKILL_B2",
+            "TRINKET_meleeonly_DMGL_B2",
+            "TRINKET_meleeonly_DMGH_B2"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "blasphemous_vial",
+         "buffs" : 
+         [
+            "b_vial_acc",
+			"b_vial_debuff",
+			"b_vial_move",
+			"b_vial_virtue",
+			"no_virtue_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "ranged_attack_skill_additional_effects":
+		 [
+		     "b_vial_debuff"
+		 ]
+        },
+		{
+         "id" : "witchs_vial",
+		 "buffs" : 
+         [
+            "witch_vial_blight_amount",
+			"witch_vial_stun"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "m_mix_heal"
+		 ]
+        },
+		{
+         "id" : "cc_set_pd_codex_of_plagues",
+         "buffs" : 
+         [
+            "subject_notes_blight",
+			"subject_notes_crit",
+			"subject_notes_hp"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "set_id" : "cc_pd",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+        {
+         "id" : "cc_set_pd_dissection_kit",
+         "buffs" : 
+         [
+            "dissection_kit_bleed",
+			"dissection_kit_acc"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "set_id" : "cc_pd",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "melee_attack_skill_additional_effects":
+		 [
+		    "d_kit_bleed_extra"
+		 ]
+        },
+		{
+         "id" : "com_pd_ashen_distillation",
+         "buffs" : 
+         [
+            "ashen_distillation_dodge",
+            "ashen_distillation_blight_amount",
+            "TRINKET_com_pd_ashen_distillation_heal_rec_B20_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "rarity" : "comet",
+         "shard" : 45,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

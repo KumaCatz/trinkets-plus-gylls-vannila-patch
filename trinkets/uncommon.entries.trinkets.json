@@ -1,0 +1,449 @@
+{
+	"entries": [
+	    {
+         "id" : "book_of_holiness",
+         "buffs" : 
+         [
+            "holy_book_stress",
+            "holy_book_dmgl",
+			"holy_book_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "camouflage_cloak",
+         "buffs" : 
+         [
+            "camo_shimmer_dmgh",
+			"camo_shimmer_dmgl",
+			"camo_shimmer_crit",
+			"camo_cloak_Tooltip1",
+			"EmptySpaceDelete"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "CamoStealth"
+		 ],
+		 "attack_skill_additional_effects":
+		 [
+		     "CamoStealth"
+		 ]
+        },
+		{
+         "id" : "life_crystal",
+         "buffs" : 
+         [
+            "TRINKET_MAXHP_B3"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "shimmering_cloak",
+         "buffs" : 
+         [
+            "camo_shimmer_dmgh",
+			"camo_shimmer_dmgl",
+			"camo_shimmer_dodge"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		    "ShimmerStealth"
+		 ]
+        },
+		{
+         "id" : "stun_amulet",
+         "buffs" : 
+         [
+			"s_amulet_Tooltip1",
+			"s_amulet_Tooltip2",
+			"EmptySpaceDelete"
+			
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		    "StarAmuletCrits"
+		 ],
+		 "friendly_skill_additional_effects":
+		 [
+		    "StarAmuletCrits"
+		 ]
+		 
+        },
+		{
+         "id" : "solar_bracer",
+         "buffs" : 
+         [
+            "solar_bracer_crit",
+            "solar_bracer_spd",
+            "solar_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+		 "set_id" : "solar_set",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "bleed_amulet",
+         "buffs" : 
+         [
+            "bleed_amulet_bleed_amount",
+			"bleed_stone_bleed_resist"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "book_of_relaxation",
+         "buffs" : 
+         [
+            "relax_book_stress",
+			"relax_book_acc"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "steady_bracer",
+         "buffs" : 
+         [
+            "archer_bracer_dmgl",
+            "archer_bracer_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "heavy_boots",
+         "buffs" : 
+         [
+            "TRINKET_PROT_B3",
+			"TRINKET_MOVERESIST_B3",
+            "TRINKET_SPD_D2"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "calming_crystal",
+         "buffs" : 
+         [
+            "f_crystal_stun",
+			"f_crystal_debuff",
+			"f_crystal_move"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "seer_stone",
+         "buffs" : 
+         [
+            "TRINKET_SCOUTING_B2",
+			"seer_stone_acc",
+			"seer_stone_spd"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "swift_cloak",
+         "buffs" : 
+         [
+            "TRINKET_SPD_B2",
+            "TRINKET_MOVERESIST_D2"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "gamblers_charm",
+         "buffs" : 
+         [
+			"gambler_dodge",
+			"gambler_crits"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+		 "set_id" : "gambler_set",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "worrystone",
+         "buffs" : 
+         [
+            "worrystone_stress",
+            "worrystone_horror",
+            "worrystone_stress_worries"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "book_of_constitution",
+         "buffs" : 
+         [
+            "const_book_poison_res",
+			"const_book_bleed_res",
+			"const_book_poison_amount",
+			"const_book_bleed_amount"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "blight_amulet",
+         "buffs" : 
+         [
+			"blight_amulet_blight_amount",
+			"blight_stone_blight_resist"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "dark_bracer",
+         "buffs" : 
+         [
+            "lunar_bracer_dodge",
+			"lunar_bracer_crit"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+		 "set_id" : "lunar_set",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "debuff_amulet",
+         "buffs" : 
+         [
+            "debuff_amulet_debuff"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		     "debuff_amulet_debuff"
+		 ]
+        },
+		{
+         "id" : "surgical_glove",
+         "buffs" : 
+         [
+            "TRINKET_surgical_glove_MELEECRIT_BUFF",
+            "TRINKET_surgical_glove_MELEEACC_BUFF",
+            "TRINKET_surgical_glove_MOVERESIST_DEBUFF",
+            "TRINKET_surgical_glove_DEBUFFRESIST_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "tenacity_ring",
+         "buffs" : 
+         [
+            "t_ring_prot",
+			"t_ring_deathblow"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "move_amulet",
+         "buffs" : 
+         [
+            "shimmering_amulet_acc",
+			"shimmering_amulet_stealth",
+			"shimmering_amulet_guard"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "book_of_rage",
+         "buffs" : 
+         [
+            "rage_book_dmg_all_h",
+			"rage_book_dmg_all_l",
+			"rage_book_dmg_mid_h",
+			"rage_book_dmg_mid_l",
+			"rage_book_dmg_low_h",
+			"rage_book_dmg_low_l"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "bloodthirst_ring",
+         "buffs" : 
+         [
+			"bloodthirst_ring_dmgh",
+			"bloodthirst_ring_dmgl",
+			"TRINKET_fasting_seal_EATSASZERO",
+            "TRINKET_fasting_seal_NOSTARVEDMG",
+            "TRINKET_fasting_seal_NOSTRESSHUNGER",
+            "TRINKET_fasting_seal_NOSTRESSCAMPINGEAT"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "blood_charm",
+         "buffs" : 
+         [
+            "blood_charm_bleed_dmgh",
+			"blood_charm_bleed_dmgl",
+			"blood_charm_ap"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		    "blood_charm_bleed"
+		 ]
+        },
+		{
+         "id" : "chirurgeons_charm",
+         "buffs" : 
+         [
+            "TRINKET_chirurgeons_charm_HEALDONE_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

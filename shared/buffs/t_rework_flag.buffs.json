@@ -1,0 +1,509 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "h_hood_poison",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "poison",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "hpbelow",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.4,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "h_hood_bleed",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "bleed",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "hpbelow",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.4,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "h_hood_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "r_collar_bleed",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : -0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "reclaim"
+			}
+		},
+		
+		{
+
+			"id" : "r_collar_healing",
+			"stat_type" : "hp_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_hood_dmgh_punish",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.75,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "punish"
+			}
+		},
+		
+		{
+
+			"id" : "b_hood_dmgl_punish",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.75,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "punish"
+			}
+		},
+		
+		{
+
+			"id" : "b_hood_dmgh_exs",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 1.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "exsanguinate"
+			}
+		},
+		
+		{
+
+			"id" : "b_hood_dmgl_exs",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 1.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "exsanguinate"
+			}
+		},
+		
+		{
+
+			"id" : "b_hood_bleed_exs",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : -3,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "exsanguinate"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "b_hood_bleed_punish",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : -3,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "punish"
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "p_hood_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_b_hood_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_collar_bleed_chance",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "b_collar_max_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_collar_stress",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.50,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_collar_stress_afflicted",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.50,
+			"remove_if_not_active" : false,
+			"rule_type" : "afflicted",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_collar_self_stress",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_collar_bleed",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "afflicted",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_collar_heart_attack",
+			"stat_type" : "heartattack_stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : 1.5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description" : false
+		},
+		
+		{
+
+			"id" : "i_collar_Tooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_i_collar_Tooltip1",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "i_collar_stress_dmg",
+			"stat_type" : "stress_dmg_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.8,
+			"remove_if_not_active" : false,
+			"rule_type" : "afflicted",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "chipped_tooth_restoration",
+			"stat_type" : "hp_heal_dot_duration_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "chipped_tooth_hp",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "chipped_tooth_reclaim",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.3,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "reclaim"
+			}
+		},
+		
+		{
+
+			"id" : "glass_bleed_chance",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.35,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "p_hood_acc",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "exsanguinate"
+			}
+		},
+		
+		{
+
+			"id" : "glass_heal_rec",
+			"stat_type" : "hp_heal_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.35,
+			"remove_if_not_active" : false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "bleeding"
+			}
+		},
+		
+		{
+
+			"id" : "flag_set_bonus",
+			"stat_type" : "hp_heal_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "hpbelow",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0.4,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "r_collar_dmgh",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "r_collar_dmgl",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : -0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "cc_set_deathblow_flag",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "death_blow",
+			"amount" : 0.30,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+		
+		
+	] 
+
+} 
+
+

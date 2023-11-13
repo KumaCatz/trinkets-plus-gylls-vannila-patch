@@ -1,0 +1,167 @@
+{
+	"entries": [
+	    {
+         "id" : "lucky_talisman",
+         "buffs" : 
+         [
+            "l_tail_dodge",
+			"l_tail_dodge_low",
+			"l_tail_dodge_low_low"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "seers_satchel",
+         "buffs" : 
+         [
+            "b_pouch_blight_chance"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		    "b_pouch_buffs"
+		 ]
+        },
+		{
+         "id" : "stunning_satchel",
+         "buffs" : 
+         [
+            "k_pouch_DMGH",
+			"k_pouch_DMGL"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "ranged_attack_skill_additional_effects":
+		 [
+			 "knife_spd_buff"
+		 ]
+        },
+		{
+         "id" : "quickening_satchel",
+         "buffs" : 
+         [
+            "c_pouch_DMGH",
+			"c_pouch_DMGL",
+			"c_pouch_DMGH_t",
+			"c_pouch_DMGL_t",
+			"c_pouch_HP",
+			"c_pouch_SPD",
+			"c_pouch_trap_resist",
+			"c_pouch_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "c_pouch_stealth"
+		 ]
+        },
+		{
+         "id" : "raiders_talisman",
+         "buffs" : 
+         [
+            "TRINKET_raiders_talisman_CRIT_BUFF",
+            "TRINKET_raiders_talisman_TRAPRESIST_BUFF",
+            "TRINKET_raiders_talisman_SPD_BUFF",
+            "TRINKET_raiders_talisman_SCOUTING_BUFF",
+            "TRINKET_MAXHP_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "warrens"
+        },
+		{
+         "id" : "cc_set_gr_absinthe",
+         "buffs" : 
+         [
+            "TRINKET_gr_absinthe_DISEASERESIST_B1_vin",
+			"gr_cc_blight",
+			"gr_cc_crit"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "set_id" : "cc_gr",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "attack_crit_additional_effects":
+		 [
+		    "Cureself",
+			"abstine_heal"
+		 ]
+        },
+        {
+         "id" : "cc_set_gr_sharpened_letter_opener",
+         "buffs" : 
+         [
+            "gr_cc_acc",
+			"gr_cc_crit"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "set_id" : "cc_gr",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "attack_crit_additional_effects":
+		 [
+		    "letter_open_bleed"
+		 ]
+        },
+		{
+         "id" : "com_grv_huskclaw_toxin",
+         "buffs" : 
+         [
+            "TRINKET_com_grv_huskclaw_toxin_def_with_herbs_B15_vin",
+            "TRINKET_com_grv_huskclaw_toxin_speed_B3_vin",
+            "TRINKET_com_grv_huskclaw_toxin_blight_res_D20_vin",
+            "blight_duration_50percent_increase_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "rarity" : "comet",
+         "shard" : 80,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

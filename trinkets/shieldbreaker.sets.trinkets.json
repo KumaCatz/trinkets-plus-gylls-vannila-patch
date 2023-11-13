@@ -1,0 +1,13 @@
+{
+   "sets":
+   [
+      {
+         "id" : "sb_set1",
+         "buffs" : 
+         [
+            "shieldbreaker_set_acc",
+            "shieldbreaker_set_guard"
+         ]
+      }
+   ]
+}

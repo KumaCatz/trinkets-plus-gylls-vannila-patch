@@ -1,0 +1,10 @@
+{
+   "rarities":
+   [
+        {
+            "id": "vintage",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        }    
+   ]
+}

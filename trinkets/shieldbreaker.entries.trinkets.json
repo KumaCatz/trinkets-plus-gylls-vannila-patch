@@ -1,0 +1,137 @@
+{
+   "entries":
+   [
+      {
+         "id" : "sb_1",
+         "buffs" : 
+         [
+            "v_vial_blight"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "rarity" : "shieldbreaker",
+		 "set_id" : "sb_flavor_set",
+         "visual_rarity" : "common",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+		 [
+		    "v_vial_poison"
+		 ]
+      },
+      {
+         "id" : "sb_2",
+         "buffs" : 
+         [
+            "s_brace_crit"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "rarity" : "shieldbreaker",
+         "visual_rarity" : "uncommon",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "sb_3",
+         "buffs" : 
+         [
+            "d_wraps_spd"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "rarity" : "shieldbreaker",
+         "visual_rarity" : "rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		    "d_wraps_spd_hit"
+		 ]
+      },
+      {
+         "id" : "sb_4",
+         "buffs" : 
+         [
+            "f_spear_tip_acc",
+			"f_spear_bleed_captivate",
+			"f_spear_bleed_punc",
+			"v_spear_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "rarity" : "shieldbreaker",
+         "visual_rarity" : "very_rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "ranged_attack_skill_additional_effects":
+		 [
+		    "s_speartip_bleed"
+		 ]
+      },
+      {
+         "id" : "sb_5",
+         "buffs" : 
+         [
+            "c_cloth_hp",
+			"c_cloth_bleed",
+			"c_cloth_spd"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "rarity" : "shieldbreaker",
+         "visual_rarity" : "very_rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "sb_set_1",
+         "buffs" : 
+         [
+            "dagger_debuff",
+			"dagger_blight_amount"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "set_id" : "sb_set1",
+         "rarity" : "shieldbreaker",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "sb_set_2",
+         "buffs" : 
+         [
+            "hand_hp",
+			"hand_blight"
+         ],
+         "hero_class_requirements":
+         [
+            "shieldbreaker"
+         ],
+         "set_id" : "sb_set1",
+         "rarity" : "shieldbreaker",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      }
+   ]
+}

@@ -1,0 +1,156 @@
+{
+	"entries": [
+	    {
+         "id" : "heavens_hairpin",
+         "buffs" : 
+         [
+            "TRINKET_lightabove_STRESSDMG_B3",
+            "TRINKET_lightabove_ACC_B2"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "double_edged_pendant",
+         "buffs" : 
+         [
+            "p_pendent_ap"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "bleeding_pendant",
+         "buffs" : 
+         [
+            "b_pendent_healing",
+			"b_pendent_bleed"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "selfish_pendant",
+         "buffs" : 
+         [
+			"c_pendant_dmgH",
+			"c_pendant_dmgL",
+			"c_pendant_stress",
+			"c_pendant_stress_heal",
+			"c_pendant_Tooltip2"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+		 "set_id" : "hellion_c_pendant_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		     "c_pendant_stress"
+		 ],
+		 "kill_performer_additional_effects":
+		 [
+		     "c_pendant_resolve"
+		 ]
+        },
+		{
+         "id" : "hells_hairpin",
+         "buffs" : 
+         [
+            "h_pin_ACC",
+			"h_pin_CRIT"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "cc_set_hel_lioness_warpaint",
+         "buffs" : 
+         [
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGL_B1_vin",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGH_B1_vin",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGL_B2_vin",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGH_B2_vin",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGL_B3_vin",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGH_B3_vin",
+            "TRINKET_hel_lioness_warpaint_STRESSDMGREC_D1_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "set_id" : "cc_hel",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+        {
+         "id" : "cc_set_hel_mark_of_the_outcast",
+         "buffs" : 
+         [
+            "TRINKET_hel_mark_of_the_outcast_SPD_B1_vin",
+            "TRINKET_hel_mark_of_the_outcast_BLEEDSKILL_B1_vin",
+            "TRINKET_hel_mark_of_the_outcast_DEATHBLOWRESIST_B1_vin",
+            "TRINKET_hel_mark_of_the_outcast_HPHEALREC_D1_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "set_id" : "cc_hel",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+		{
+         "id" : "com_hel_thirsting_blade",
+         "buffs" : 
+         [
+            "hellion_thirsting_blade_acc",
+            "TRINKET_com_hel_thirsting_blade_crit_v_bleeder_B5_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "rarity" : "comet",
+         "shard" : 122,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+         [
+            "Thirsting Blade Self Atk On Miss Vin"
+         ]
+        }
+	]
+}

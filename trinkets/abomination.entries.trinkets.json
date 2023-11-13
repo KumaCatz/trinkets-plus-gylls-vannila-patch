@@ -1,0 +1,152 @@
+{
+	"entries": [
+	    
+		{
+         "id" : "padlock_1",
+         "buffs" : 
+         [
+			"v_lock_Tooltip1",
+			"v_lock_stun"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "stresshealaxapartone",
+			 "v_lock_stress_heal",
+			 "stresshealaxaparttwo"
+		 ]
+        },
+		{
+         "id" : "padlock_2",
+         "buffs" : 
+         [
+            "t_lock_stun",
+            "t_lock_blight",
+			"t_lock_SPD"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "padlock_3",
+         "buffs" : 
+         [
+            "p_lock_dmg"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "padlock_4",
+         "buffs" : 
+         [
+            "f_lock_dmgh",
+            "f_lock_dmgl",
+            "f_lock_SPD",
+            "f_lock_dmg_taken"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "padlock_5",
+         "buffs" : 
+         [
+            "r_lock_party_stress_buff",
+			"r_lock_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "cc_set_abom_shameful_shroud",
+         "buffs" : 
+         [
+			"knitted_shroud_dodge",
+			"knitted_shroud_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "set_id" : "cc_abom",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+        },
+        {
+         "id" : "cc_set_abom_wrought_osmond_chains",
+         "buffs" : 
+         [
+			"silver_chains_crit_rec",
+			"silver_chain_beast_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "set_id" : "cc_abom",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "kill_performer_additional_effects":
+		 [
+		     "chains_stress_heal"
+		 ]
+        },
+		{
+         "id" : "com_abom_broken_key",
+         "buffs" : 
+         [
+            "broken_key_acc",
+			"broken_key_crit_v_stun",
+			"TRINKET_com_abom_broken_key_stress_dmg_rec_D10_vin"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "rarity" : "comet",
+         "shard" : 80,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_crit_additional_effects":
+		 [
+		     "Broken Key Buff"
+		 ]
+        }
+	]
+}

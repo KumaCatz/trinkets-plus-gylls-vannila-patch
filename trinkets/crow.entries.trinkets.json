@@ -1,0 +1,70 @@
+{
+	"entries": [
+	    {
+         "id" : "crow_wingfeather",
+         "buffs" : 
+         [
+            "c_feather_dodge",
+			"c_feather_blight",
+			"c_talon_disease"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "crow",
+         "price" : 1,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "crow_tailfeather",
+         "buffs" : 
+         [
+            "c_tail_spd",
+			"c_tail_crits_received",
+			"c_talon_disease",
+			"c_tail_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "crow",
+         "price" : 1,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "crow_talon",
+         "buffs" : 
+         [
+            "c_talon_bleed",
+			"c_talon_crit",
+			"c_talon_disease"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "crow",
+         "price" : 1,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        },
+		{
+         "id" : "crow_eye",
+         "buffs" : 
+         [
+            "c_eye_acc",
+			"c_eye_scout",
+			"c_talon_disease",
+			"c_eye_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "crow",
+         "price" : 1,
+         "limit" : 1,
+         "origin_dungeon" : ""
+        }
+	]
+}

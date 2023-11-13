@@ -1,0 +1,193 @@
+{
+   "entries":
+   [
+      {
+         "id" : "com_mildredslocket",
+         "buffs" : 
+         [
+            "TRINKET_com_mildreds_locket_grindgrist_skill_resist_vin",
+            "locket_blight_resist",
+            "mildred_locket_spd",
+            "TRINKET_com_mildreds_locket_dmgH_vs_poorsoul_vin",
+            "TRINKET_com_mildreds_locket_dmgL_vs_poorsoul_vin"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "mildred",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "com_lens_of_comet",
+         "buffs" : 
+         [
+            "TRINKET_com_lens_comet_destealth_vin",
+			"comet_lens_crit",
+			"comet_lens_ap",
+            "TRINKET_com_lens_comet_affliction_D20_vin"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "comet",
+         "shard" : 25,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "com_comet_seed_pendant",
+         "buffs" : 
+         [
+            "crystal_dmgh_v_husk",
+			"crystal_dmgl_v_husk"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "comet",
+		 "set_id" : "shard_greed",
+         "shard" : 25,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "com_comet_cluster_pendant",
+         "buffs" : 
+         [
+            "comet_shard_reward_extra"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "comet",
+		 "set_id" : "shard_greed",
+         "shard" : 50,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "com_prismatic_heart_crystal",
+         "buffs" : 
+         [
+            "thing_heart_hp"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "thing",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		     "Thing Heart Cure"
+		 ]
+      },
+      {
+         "id" : "com_thing_fang",
+         "buffs" : 
+         [
+            "thing_fang_crit_always",
+            "thing_fang_crit_self_hp",
+			"thing_fang_crit_targ_hp"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "thing",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "com_thing_hide",
+         "buffs" : 
+         [
+            "Thing Hide Crit Rec",
+			"Thing Hide DMG Rec",
+			"thing_hide_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "thing",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "com_thing_eye",
+         "buffs" : 
+         [
+            "thing_eye_acc",
+			"Eye_Perma_Scout_Tooltip1"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "thing",
+         "shard" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		    "Thing Eye Perma Scout",
+			"Thing Eye Perma Scout Tip"
+		 ]
+      },
+	  {
+        "id" : "com_coat_many_colours",
+        "buffs" : 
+        [
+		   "coat_colour_Tooltip1"
+		],
+        "hero_class_requirements":
+        [
+           
+        ],
+        "rarity" : "comet",
+        "shard" : 180,
+        "limit" : 1,
+        "origin_dungeon" : "",
+        "kill_performer_additional_effects":
+        [
+          "Coat of Many Colours ACC"
+        ],
+        "was_killed_all_heroes_additional_effects":
+        [
+          "Coat Death Stun Vin",
+          "Coat Death Stress Vin"
+        ]
+     },
+     {
+        "id" : "com_millers_pipe",
+        "buffs" : 
+        [
+        
+        ],
+        "hero_class_requirements":
+        [
+           
+        ],
+        "rarity" : "comet",
+        "shard" : 100,
+        "limit" : 1,
+        "origin_dungeon" : "",
+        "kill_performer_additional_effects":
+        [
+          "Miller Pipe Stress Heal Vin"
+        ],
+        "kill_all_monsters_additional_effects":
+        [
+          "Miller Pipe Kill Blight Vin"
+        ],
+        "was_killed_all_heroes_additional_effects":
+        [
+          "Miller Death Party Effects Fixed",
+          "Miller Death Party Stress Vin"
+        ]
+     }
+   ]
+}
