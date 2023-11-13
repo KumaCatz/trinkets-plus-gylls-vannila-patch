@@ -76,8 +76,6 @@
          "buffs" : 
          [
             "b_vial_acc",
-			"b_vial_debuff",
-			"b_vial_move",
 			"b_vial_virtue",
 			"no_virtue_Tooltip1"
          ],
