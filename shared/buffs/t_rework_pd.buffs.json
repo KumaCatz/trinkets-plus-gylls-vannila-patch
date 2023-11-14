@@ -120,7 +120,7 @@
 			"id" : "b_vial_dmgh",
 			"stat_type" : "combat_stat_multiply",
 			"stat_sub_type" : "damage_high",
-			"amount" : 1,
+			"amount" : 0.50,
 			"remove_if_not_active" : false,
 			"rule_type" : "skill",
 			"is_false_rule" : false,
@@ -128,8 +128,7 @@
 			{
 				"float" : 0,
 				"string" : "disorienting_blast"
-			},
-			"has_description" : false
+			}
 
 		},
 
@@ -138,7 +137,7 @@
 			"id" : "b_vial_dmgl",
 			"stat_type" : "combat_stat_multiply",
 			"stat_sub_type" : "damage_low",
-			"amount" : 1,
+			"amount" : 0.50,
 			"remove_if_not_active" : false,
 			"rule_type" : "skill",
 			"is_false_rule" : false,
@@ -146,17 +145,16 @@
 			{
 				"float" : 0,
 				"string" : "disorienting_blast"
-			},
-			"has_description" : false
+			}
 
 		},
 
 		{
 
-			"id" : "b_vial_dmg_Tooltip2",
+			"id" : "b_vial_dmg_Tooltip1",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_b_vial_Tooltip2",
-			"amount" : 0,
+			"amount" : -0.50,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,

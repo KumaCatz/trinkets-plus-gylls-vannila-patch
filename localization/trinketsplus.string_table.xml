@@ -93,7 +93,7 @@
 	<entry id="str_inventory_title_trinketdiseased_herb"><![CDATA[Infectious Herb]]></entry>
 	<entry id="str_inventory_title_trinket"><![CDATA[Invigorating Mixture]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_b_vial_Tooltip1"><![CDATA[Never {colour_start|stress}Virtue{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_b_vial_Tooltip2"><![CDATA[Corpse Explosion: +100%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_b_vial_Tooltip2"><![CDATA[%d]]></entry>
 	<entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Attack Hit:]]></entry>
 	
 	<!-- Strings for Leper Trinkets -->
