@@ -1,4 +1,0 @@
-//Flagellent Effects
-effect: .name "b_collar_bleed" .target "performer" .duration 2 .chance 100% .buff_ids "b_collar_bleed_chance" .on_hit true .on_miss false .apply_once true
-effect: .name "i_collar_stress" .target "performer" .chance 100% .stress 5 .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "glass_bleed_transfer" .target "target" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .has_description true .queue false .swap_source_and_target true

@@ -1,1 +1,0 @@
-buff_stat_tooltip_upgrade_discount_Loc_stacking_scout_Tooltip1,trinketsplus,schinese,

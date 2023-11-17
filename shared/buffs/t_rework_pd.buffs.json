@@ -151,7 +151,7 @@
 
 		{
 
-			"id" : "b_vial_dmg_Tooltip1",
+			"id" : "no_virtue_Tooltip1",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_b_vial_Tooltip2",
 			"amount" : -0.50,
