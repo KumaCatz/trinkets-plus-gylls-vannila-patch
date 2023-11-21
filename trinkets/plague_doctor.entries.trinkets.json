@@ -79,7 +79,8 @@
 			"b_vial_virtue",
 			"no_virtue_Tooltip1",
          "b_vial_dmgh",
-         "b_vial_dmgl"
+         "b_vial_dmgl",
+         "b_vial_dmg_Tooltip1"
          ],
          "hero_class_requirements":
          [

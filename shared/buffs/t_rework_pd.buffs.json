@@ -128,7 +128,8 @@
 			{
 				"float" : 0,
 				"string" : "disorienting_blast"
-			}
+			},
+			"has_description" : false
 
 		},
 
@@ -145,16 +146,16 @@
 			{
 				"float" : 0,
 				"string" : "disorienting_blast"
-			}
-
+			},
+			"has_description" : false
 		},
 
 		{
 
-			"id" : "no_virtue_Tooltip1",
+			"id" : "b_vial_dmg_Tooltip1",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_b_vial_Tooltip2",
-			"amount" : -0.50,
+			"amount" : -0.5,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
