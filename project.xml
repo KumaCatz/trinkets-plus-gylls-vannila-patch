@@ -2,22 +2,21 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>E:/Games/Darkest Dungeon Stuff/Trinkets++/</ModDataPath>
-	<Title>Trinkets Plus Gylls Vanilla Patch</Title>
+	<ModDataPath>C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\mods\trinkets-gylls-patch</ModDataPath>
+	<Title>trinkets-plus-gylls-vannila-patch</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
-	<Visibility>public</Visibility>
+	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
 	<VersionMinor>0</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
-		<Tags>english</Tags>
-		<Tags>chinese</Tags>
-		<Tags>trinkets</Tags>
-		<Tags>rework</Tags>
+		<Tags>Patch</Tags>
+		<Tags>Trinkets Plus</Tags>
+		<Tags>Gyll&apos;s Vanilla</Tags>
 	</Tags>
-	<ItemDescription/>
-	<PublishedFileId>3011536959</PublishedFileId>
+	<ItemDescription>Patch for Trinkets from trinkets Plus to Gyll&apos;s Vanilla compatibility.</ItemDescription>
+	<PublishedFileId>3090678406</PublishedFileId>
 </project>
 
