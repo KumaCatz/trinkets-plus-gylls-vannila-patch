@@ -1,10 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - C:\Users\User\Documents\My Games\Darkest Dungeon\trinkets-plus-gylls-vannila-patch\trinkets-plus-gylls-vannila-patch.xml
-Mod Data Directory = C:/Users/User/Documents/My Games/Darkest Dungeon/trinkets-plus-gylls-vannila-patch/
-
-Creating new item...
-.......Created
+Parsing project file - C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\mods\trinkets-gylls-patch\project.xml
+Mod Data Directory = C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/trinkets-gylls-patch/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -160,9 +157,13 @@ Couldn't find colour comet in {colour_start|comet}Comet Shards{colour_end}
 Exporting .loc2 files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file C:/Users/User/Documents/My Games/Darkest Dungeon/trinkets-plus-gylls-vannila-patch/preview_icon.png...NOT FOUND! - Copying default preview icon to mod directory
+Searching for preview icon file C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/trinkets-gylls-patch/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
+
+-------------------------------------------------------------------------------
+Detected 1 unchanged files
+The following files are unchanged and will be uploaded...
 
 -------------------------------------------------------------------------------
 Modded files...
@@ -183,13 +184,11 @@ localization/3090678406_russian.loc2
 localization/3090678406_schinese.loc2
 localization/3090678406_spanish.loc2
 localization/missing_files.txt
-localization/trinketsplus.string_table.xml
 trinkets/plague_doctor.entries.trinkets.json
 preview_icon.png
 project.xml
 steam_workshop_uploader.log
-trinkets-plus-gylls-vannila-patch.xml
 
-Submitting.................................................................................................................................................................................................................Submitted.
-Saving project file C:\Users\User\Documents\My Games\Darkest Dungeon\trinkets-plus-gylls-vannila-patch\trinkets-plus-gylls-vannila-patch.xml
+Submitting...........................................................................Submitted.
+Saving project file C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\mods\trinkets-gylls-patch\project.xml
 
